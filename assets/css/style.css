@@ -848,12 +848,26 @@ section {
 
 }
 
-.escape {
-  border: solid 1px #46C63D;
-  color: #46C63D;
-  border-radius: 50px;
-  background-color: black;
-  width: 60px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
+  /* Estilos para os botões */
+  .escape {
+    background-color: black; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 15px 20px; /* Espaçamento interno para tornar os botões maiores */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Remover a borda */
+    border-radius: 50px; /* Adicionar borda arredondada */
+    cursor: pointer; /* Adicionar o cursor de ponteiro ao passar o mouse */
+    margin: 0 10px; /* Margem entre os botões */
+  }
+
+  .escape:hover {
+    background-color: #45a049; /* Mudar a cor de fundo ao passar o mouse */
+  }
+
+  /* Estilos para o container */
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
